@@ -1,0 +1,89 @@
+
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(69, 69, 116);
+}
+
+input{
+    border: solid 1px #dbfcfc;;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: #fff;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+}
+input:hover{
+    cursor: pointer;
+    background-color: #f7fafa;
+}
+input:focus{
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: none;
+}
+
+button {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 3px 10px ;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #f7fafa;
+}
+
+button:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+}
+
+img{
+    width: 15vw;
+    height: 40vh;
+    border: 3px solid black;
+    margin: 10px 5px;
+    inset: 0px;
+    margin: auto;
+}
+
+#inputCont{
+    padding: 10px;
+}
+
+#result{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 10px;
+}
