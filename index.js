@@ -5,7 +5,7 @@ const input = document.getElementById("input");
 const search = document.getElementById("search");
 const count = document.getElementById("count");
 const resultCont = document.getElementById("result");
-const API_KEY = "";
+const API_KEY = "YOUR_API_KEY_HERE"; // Replace with your Unsplash API key
 
 
 async function loadRandomImages(){
